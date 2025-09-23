@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="items-center justify-items-center min-h-screen sm:p-20">
+    <div className="items-center justify-items-center min-h-screen sm:p-20 overflow-y-hidden">
 
       {/* <div className="bg-green-950 text-[#957536] text-7xl">
         <h1>Roccovia</h1>
