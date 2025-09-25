@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/* @import url("/public/font/B-NAZANIN.TTF"); */
 
 :root {
   --background: #ffffff;
@@ -8,21 +9,30 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* --font-sans: var(--font-geist-sans); */
+  /* --font-mono: var(--font-geist-mono); */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --background: #0a0a0a; */
-    --background: #012C1D;
+    --background: #0a0a0a;
+    /* --background: #012C1D; */
     --foreground: #ededed;
   }
 }
+
+/* @font-face {
+  font-family: nazanin;
+  font-style: normal;
+  src: url("/public/font/B-NAZANIN.TTF");
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  direction: rtl;
+  box-sizing: border-box;
+  /* font-family: nazanin; */
 }

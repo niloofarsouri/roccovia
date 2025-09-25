@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -11,12 +12,30 @@ export default function Home() {
       </div> */}
 
       <div className="flex justify-center items-center">
-        <Image
-          src="/img/roccovia_logo.jpg"
+        <Link href={'/'}>
+          <Image
+            src="/img/logo-crown and col.png"
+            width={300}
+            height={300}
+            alt="Picture of the Logo"
+          />
+
+          <Image 
+          src="/img/logo-png.png"
           width={300}
           height={300}
-          alt="Picture of the Logo"
-        />
+          alt="fuck"
+          />
+        </Link>
+      </div>
+
+      <div className="grid grid-cols-3 gap-1">
+        <div className="border-1 p-2 col-span-2">col 1</div>
+        <div className="border-1 p-2">col 2</div>
+        <div className="border-1 p-2">col 3</div>
+        <div className="border-1 p-2 col-span-2">col 4</div>
+        <div className="border-1 p-2 col-span-2">col 5</div>
+        <div className="border-1 p-2">col 6</div>
       </div>
 
       {/* <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

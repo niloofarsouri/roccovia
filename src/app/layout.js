@@ -1,6 +1,9 @@
 import MyFooter from "@/components/footer";
 import "./globals.css";
-
+import MyHeader from "@/components/header/inex";
+import {sahel} from 'next-persian-fonts/sahel'
+// import { vazirMatn } from 'next-persian-fonts/vazirmatn'
+// import localFont from 'next/font/local';
 
 
 export const metadata = {
@@ -12,10 +15,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      
-      <body>
+    <html lang="en" dir="rtl">
 
+      <body className={sahel.className}>
+
+        <MyHeader />
         {children}
         <MyFooter />
 
