@@ -1,7 +1,8 @@
 import MyFooter from "@/components/footer";
 import "./globals.css";
 import MyHeader from "@/components/header/inex";
-import {sahel} from 'next-persian-fonts/sahel'
+import { sahel } from 'next-persian-fonts/sahel'
+import HeaderBurger from "@/components/headerBurger";
 // import { vazirMatn } from 'next-persian-fonts/vazirmatn'
 // import localFont from 'next/font/local';
 
@@ -18,6 +19,8 @@ export default function RootLayout({ children }) {
     <html lang="en" dir="rtl">
 
       <body className={sahel.className}>
+
+        <HeaderBurger />
 
         <MyHeader />
         {children}

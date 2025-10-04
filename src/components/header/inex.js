@@ -7,33 +7,46 @@ function MyHeader() {
 
     return (
         <>
-            <header>
-                <div className="w-full h-[50px] p-0 m-0 flex justify-between bg-white text-black border-b-1 ">
+            <header className="hidden md:block">
+                <div className="w-full h-[50px] p-0 m-0 flex justify-between bg-white text-[#957536]">
 
                     <ul className="w-1/2 flex justify-center items-centern p-0 m-0">
                         <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">معماری کلاسیک و فاخر</li>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">صفحه اصلی</li>
                         </Link>
 
                         <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">معماری معاصر / نئوکلاسیک</li>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">Classic</li>
                         </Link>
 
-                        <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">طراحی داخلی</li>
+                        <Link href={'/neoClassic'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">NeoClassic</li>
                         </Link>
 
-                        <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">پروژه‌های ایرانی</li>
+                        <Link href={'/modern'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Modern</li>
                         </Link>
 
-                        <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">اخبار و رویدادها</li>
+                        <Link href={'/interiorDesign'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Interior Design</li>
                         </Link>
 
-                        <Link href={'/'}>
-                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">نقد و تحلیل</li>
+                        <Link href={'/landscape'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Landscape</li>
                         </Link>
+
+                        <Link href={'/lighting'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Lighting</li>
+                        </Link>
+
+                        <Link href={'/jornal'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">ژورنال</li>
+                        </Link>
+
+                        <Link href={'/blog'}>
+                            <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">مقالات</li>
+                        </Link>
+
                     </ul>
 
                     <ul className="w-1/4 p-0 m-0">
@@ -51,3 +64,39 @@ function MyHeader() {
 
 
 export default MyHeader
+
+
+
+
+// bg-[#0A2B1B]
+
+
+// <ul className="w-1/2 flex justify-center items-centern p-0 m-0">
+//     <Link href={'/'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">معماری کلاسیک</li>
+//     </Link>
+
+//     <Link href={'/'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">معماری معاصر / نئوکلاسیک</li>
+//     </Link>
+
+//     <Link href={'/'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">طراحی داخلی</li>
+//     </Link>
+
+//     <Link href={'/projects'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">پروژه‌ها</li>
+//     </Link>
+
+//     <Link href={'/jornal'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">ژورنال</li>
+//     </Link>
+
+//     <Link href={'/blog'}>
+//         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">مقالات</li>
+//     </Link>
+
+//     <Link href={'/landscape'}>
+//     <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">landscape</li>
+//     </Link>
+// </ul>
