@@ -39,12 +39,16 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Lighting</li>
                         </Link>
 
-                        <Link href={'/jornal'}>
+                        {/* <Link href={'/jornal'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">ژورنال</li>
-                        </Link>
+                        </Link> */}
 
                         <Link href={'/articles'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">مقالات</li>
+                        </Link>
+
+                        <Link href={'/about'}>
+                            <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">درباره ما</li>
                         </Link>
 
                     </ul>

@@ -8,7 +8,7 @@ function Blog() {
     return (
         <>
             <div className="flex-col justify-center items-center p-5  bg-[#0A2B1B] text-[#957536]">
-                <p className="text-xl">مقالات / بلاگ → درباره‌ی ترندهای معماری، معرفی متریال‌ها، نقد ساختمان‌های معروف، تکنولوژی‌های جدید (BIM، VR).</p>
+                <p className="text-xl pb-7">مقالات / بلاگ → درباره‌ی ترندهای معماری، معرفی متریال‌ها، نقد ساختمان‌های معروف، تکنولوژی‌های جدید (BIM، VR).</p>
 
 
                 <div className="grid grid-cols-3 gap-1">
