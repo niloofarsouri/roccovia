@@ -17,16 +17,10 @@
   :root {
     --background: #0a0a0a;
     /* --background: #012C1D; */
-    --foreground: #957536;
+    --foreground: #7e6229;
     /* text-[#957536] */
   }
 }
-
-/* @font-face {
-  font-family: nazanin;
-  font-style: normal;
-  src: url("/public/font/B-NAZANIN.TTF");
-} */
 
 body {
   background: var(--background);
@@ -35,5 +29,7 @@ body {
   overflow-x: hidden;
   direction: rtl;
   box-sizing: border-box;
-  /* font-family: nazanin; */
 }
+
+
+/* bg-[#0A2B1B] text-[#7e6229] */

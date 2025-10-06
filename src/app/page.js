@@ -5,11 +5,19 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-[#0A2B1B] text-[#B89B51] items-center justify-items-center max-h-screen sm:p-20 overflow-y-hidden">
+    <div className="bg-[url(/img/damask100.png)] bg-center bg-repeat bg-[#0A2B1B] text-[rgb(184,155,81)] items-center justify-items-center max-h-screen sm:p-20 overflow-y-hidden">
 
       {/* <div className="bg-green-950 text-[#957536] text-7xl">
         <h1>Roccovia</h1>
       </div> */}
+
+      <div className="absolute top-0 left-0 hidden lg:block">
+        <Image
+          src="/img/curtain2.png"
+          width={600}
+          height={600}
+        />
+      </div>
 
       <div className="flex justify-center items-center">
         <Link href={'/'}>
