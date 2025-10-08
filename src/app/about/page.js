@@ -1,8 +1,6 @@
 
 
 
-
-
 function AboutUs() {
 
     return (
@@ -30,7 +28,6 @@ function AboutUs() {
         </>
     )
 }
-
 
 
 export default AboutUs

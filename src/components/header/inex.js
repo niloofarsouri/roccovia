@@ -15,7 +15,7 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">صفحه اصلی</li>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'/classic'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Classic</li>
                         </Link>
 

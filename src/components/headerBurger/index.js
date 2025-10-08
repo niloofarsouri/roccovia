@@ -32,7 +32,7 @@ function HeaderBurger() {
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">صفحه اصلی</li>
                                     </Link>
 
-                                    <Link href={'/'}>
+                                    <Link href={'/classic'}>
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">Classic</li>
                                     </Link>
 
