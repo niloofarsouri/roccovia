@@ -15,27 +15,27 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">صفحه اصلی</li>
                         </Link>
 
-                        <Link href={'/classic'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Classic</li>
                         </Link>
 
-                        <Link href={'/neoClassic'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">NeoClassic</li>
                         </Link>
 
-                        <Link href={'/modern'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Modern</li>
                         </Link>
 
-                        <Link href={'/interiorDesign'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Interior Design</li>
                         </Link>
 
-                        <Link href={'/landscape'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Landscape</li>
                         </Link>
 
-                        <Link href={'/lighting'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Lighting</li>
                         </Link>
 
@@ -43,7 +43,7 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">ژورنال</li>
                         </Link> */}
 
-                        <Link href={'/articles'}>
+                        <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">مقالات</li>
                         </Link>
 
