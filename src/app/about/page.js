@@ -9,19 +9,15 @@ function AboutUs() {
                 <div className="w-[70%] h-auto">
                     <h1 className="text-3xl font-serif text-center mt-20">ROCCOVIA</h1>
                     <p className="p-7">
-                        دربارهٔ ROCCOVIA
-
-                        ROCCOVIA یک پلتفرم پژوهشی و تحلیلی در حوزهٔ معماری است که با رویکردی بین‌المللی به بررسی زیبایی‌شناسی، تاریخ و تحول سبک‌های معماری می‌پردازد. این مجله با تمرکز بر گفت‌وگوی میان سنت و معاصریت، تلاش دارد تا چشم‌انداز تازه‌ای از معنا، فرم و فضا ارائه دهد.
-                        ما در ROCCOVIA باور داریم که معماری تنها حاصل ساخت نیست، بلکه بازتابی از اندیشه، فرهنگ و زمانه است.
-                        از کاوش در جزئیات معماری کلاسیک و نئوکلاسیک تا تحلیل گرایش‌های مدرن و مینیمال، هدف ما ایجاد بستری برای تفکر انتقادی، تبادل دانش و الهام‌بخشی میان معماران و علاقه‌مندان این هنر والا است.
+                        ROCCOVIA مجموعه‌ای خلاق در حوزهٔ معماری است که با نگاهی هنرمندانه و تحلیلی به طراحی فضا، سبک‌شناسی و زیبایی‌شناسی معاصر می‌پردازد. ما باور داریم معماری فراتر از ساخت‌وساز است؛ زبانی است برای بیان ایده، هویت و احساس در بستر فضا.
+                        در ROCCOVIA، علاوه بر انتشار مقالات و تحلیل‌های تخصصی در زمینهٔ معماری و طراحی، پروژه‌های اجرایی و مفهومی نیز انجام می‌شود تا پیوندی میان نظریه و عمل شکل گیرد. هدف ما خلق فضاهایی است که معنا، فرم و تجربه را در هماهنگی کامل به نمایش می‌گذارند — جایی که هنر، منطق و خلاقیت به یک زبان مشترک تبدیل می‌شوند.
                     </p>
 
                     <p className="p-7 mb-20">
-                        About ROCCOVIA
+                        <p>About ROCCOVIA</p>
 
-                        ROCCOVIA is an international platform dedicated to the study and interpretation of architectural aesthetics, history, and stylistic evolution. With a focus on the dialogue between tradition and modernity, the magazine seeks to present new perspectives on meaning, form, and spatial experience.
-                        At ROCCOVIA, we believe that architecture is not merely the act of building — it is the reflection of thought, culture, and time.
-                        From the intricacies of classical and neoclassical design to the principles of modern and minimalist architecture, our mission is to foster critical thinking, knowledge exchange, and inspiration among architects, scholars, and enthusiasts of this timeless art.
+                        ROCCOVIA is a creative architectural collective that approaches design, style, and spatial aesthetics through an artistic and analytical lens. We believe that architecture goes beyond construction — it is a language for expressing ideas, identity, and emotion through space.
+                        At ROCCOVIA, we publish in-depth articles and stylistic analyses while also engaging in conceptual and built projects that bridge the gap between theory and practice. Our mission is to create spaces where meaning, form, and experience coexist in harmony — where art, logic, and creativity speak a common language.
                     </p>
                 </div>
             </div>

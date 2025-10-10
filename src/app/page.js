@@ -52,7 +52,7 @@ export default function Home() {
 
         <div className="w-full col-span-1 p-2 hover:opacity-60">
           <Image
-            src="/img/cam1___psd.tif"
+            src="/img/classic2.jpg"
             width={600}
             height={600}
             alt="Picture of the Logo"
@@ -64,6 +64,11 @@ export default function Home() {
 
       <div className="flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 border-1 mt-10 p-5 overflow-hidden">
+
+          <div className="col-span-1 md:col-span-3 p-5 flex justify-center items-center">
+            <p className="text-xl font-serif text-[#eee2cb] p-3">Projects</p>
+          </div>
+
           <div className="col-span-1 hover:opacity-50 transition-all">
             <Image
               src="/img/cam5-2___psd.tif"
@@ -93,10 +98,6 @@ export default function Home() {
             />
           </div>
 
-          <div className="col-span-1 md:col-span-3 p-5 flex justify-center items-center">
-            <p className="text-xl font-serif text-[#eee2cb] p-3">پروژه ها</p>
-          </div>
-
           {/* <div className="col-span-3 text-center">
             <p className="text-3xl font-serif text-[#eee2cb] p-3">Redefining Classical Architecture in The Contemprory World</p>
             <p className="text-l text-[#eee2cb] p-3">"بازتعریف معماری کلاسیک در دنیای معاصر"</p>
@@ -123,7 +124,7 @@ export default function Home() {
         <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-2">
           <div className="col-span-1 hover:opacity-50 transition-all">
             <Image
-              src="/img/1.jpg"
+              src="/img/lamp.jpg"
               width={500}
               height={500}
               alt="Picture of the Logo"
@@ -132,7 +133,7 @@ export default function Home() {
 
           <div className="col-span-1 hover:opacity-50 transition-all">
             <Image
-              src="/img/baroque-1.jpg"
+              src="/img/pediment.jpg"
               width={500}
               height={500}
               alt="Picture of the Logo"
@@ -141,7 +142,7 @@ export default function Home() {
 
           <div className="col-span-1 hover:opacity-50 transition-all">
             <Image
-              src="/img/persian.jpg"
+              src="/img/classic3.jpg"
               width={500}
               height={500}
               alt="Picture of the Logo"
@@ -160,6 +161,54 @@ export default function Home() {
       </section>
 
 
+      <section className="border-1 mt-10">
+        <div className="grid gap-2 grid-cols-4 mt-10 p-5">
+
+          <div className="flex justify-center col-span-4">
+            <p className="text-2xl font-serif text-[#eee2cb] p-3">Landscape</p>
+          </div>
+
+        </div>
+
+
+        <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-2">
+          <div className="col-span-1 hover:opacity-50 transition-all">
+            <Image
+              src="/img/landscape/landscape (4).jpg"
+              width={500}
+              height={500}
+              alt="Picture of the Logo"
+            />
+          </div>
+
+          <div className="col-span-1 hover:opacity-50 transition-all">
+            <Image
+              src="/img/landscape/landscape (2).jpg"
+              width={500}
+              height={500}
+              alt="Picture of the Logo"
+            />
+          </div>
+
+          <div className="col-span-1 hover:opacity-50 transition-all">
+            <Image
+              src="/img/landscape/landscape (3).jpg"
+              width={500}
+              height={500}
+              alt="Picture of the Logo"
+            />
+          </div>
+
+          <div className="col-span-1 hover:opacity-50 transition-all">
+            <Image
+              src="/img/landscape/landscape (1).jpg"
+              width={500}
+              height={500}
+              alt="Picture of the Logo"
+            />
+          </div>
+        </div>
+      </section>
 
     </div>
   );
