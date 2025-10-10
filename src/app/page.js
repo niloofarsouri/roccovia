@@ -22,14 +22,27 @@ export default function Home() {
       </div> */}
 
       <div className="flex justify-center items-center border-t-1 border-l-1 border-r-1">
+
         <Link href={'/'} className="pt-10">
-          <Image
-            src="/img/logo-crown and col.png"
-            width={300}
-            height={300}
-            alt="Picture of the Logo"
-          />
+          <div className="hidden lg:block">
+            <Image
+              src="/img/logo-crown and col.png"
+              width={300}
+              height={300}
+              alt="Picture of the Logo"
+            />
+          </div>
+
+          <div className="block lg:hidden">
+            <Image
+              src="/img/logo-crown and col.png"
+              width={150}
+              height={150}
+              alt="Picture of the Logo"
+            />
+          </div>
         </Link>
+
       </div>
 
       <div className="flex justify-center items-center border-l-1 border-r-1">
