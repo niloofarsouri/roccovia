@@ -21,15 +21,15 @@ function MyFooter() {
 
                     <div className="flex-col justify-center items-center">
                         <Link href={'https://mail.google.com/mail/u/0/#inbox?compose=new'}>
-                            <p>Niloofar Souri</p>
+                            <p className="font-serif">Niloofar Souri</p>
                         </Link>
 
                         <Link href={'https://mail.google.com/mail/u/0/#inbox?compose=new'}>
-                            <p>Minoo Souri</p>
+                            <p className="font-serif">Minoo Souri</p>
                         </Link>
 
                         <Link href={'https://mail.google.com/mail/u/0/#inbox?compose=new'}>
-                            <p>Negin Souri</p>
+                            <p className="font-serif">Negin Souri</p>
                         </Link>
                     </div>
 

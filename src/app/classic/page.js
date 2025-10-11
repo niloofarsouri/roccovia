@@ -4,14 +4,24 @@ function Classic() {
 
     return (
         <>
-            <section className="w-full h-auto bg-[#0A2B1B] text-[#eee2cb] flex justify-center items-center p-10 text-justify">
-                <div className="w-[70%] flex-col items-center justify-center border-l-1 border-r-1 p-10">
-                    <div className="flex justify-center items-center">
+            <section className="w-full h-auto bg-[#0A2B1B] text-[#eee2cb] flex justify-center items-center p-3 md:p-10 text-justify">
+                <div className="w-[90%] md:w-[70%] flex-col items-center justify-center border-l-1 border-r-1 p-3">
+                    <div className="text-left border-b-1">
                         <p className="text-3xl font-serif text-[#eee2cb] p-5">Classic</p>
                     </div>
 
                     <div>
-                        <h1>چرا ستون‌های یونانی و قوس‌های رومی هنوز نماد شکوه‌اند؟</h1>
+                        <h1 className="text-xl">در جهانی که هر روز فرم‌ها تغییر می‌کنند، بعضی فرم‌ها هرگز کهنه نمی‌شوند...</h1>
+                        <br/>
+                        <h2 className="text-lg">چرا ستون‌های یونانی و قوس‌های رومی هنوز نماد شکوه‌اند؟</h2>
+                        <h3 className="text-base">پیوند میان هندسه، ایمان و مهندسی در معماری جاودانه‌ی جهان</h3>
+                        <br/>
+                        <h5 className="p-1">مقدمه:</h5>
+                        <p>
+                            قرن‌ها گذشته و امپراتوری‌ها یکی پس از دیگری فرو ریخته‌اند، اما هنوز وقتی در برابر معابد یونان یا طاق‌های رومی می‌ایستیم، نوعی سکوت باشکوه در فضا جریان دارد — احساسی از نظم، قدرت و زیبایی که گذر زمان از آن نکاسته است.
+                            چه چیزی باعث شده این فرم‌های سنگی، پس از هزاران سال، همچنان الهام‌بخش معماری مدرن باشند؟ پاسخ در جایی میان منطق سازه و شعر سنگ پنهان است.
+                        </p>
+                        <br />
                         <p>
                             هزاران سال از زمان ساخت معابد یونان و طاق‌های رومی گذشته، اما هنوز وقتی در برابرشان می‌ایستیم، حس ثبات، شکوه و نظم را تجربه می‌کنیم. راز این ماندگاری فقط در سنگ و ملات نیست؛ در پیوند میان زیبایی، منطق و معناست.
                         </p>
