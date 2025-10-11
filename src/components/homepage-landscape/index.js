@@ -21,7 +21,7 @@ function HomepageLandscape() {
                 <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-2">
                     <div className="col-span-1 hover:opacity-50 transition-all">
                         <Image
-                            src="/img/landscape/IMG_1929.jpg"
+                            src="/img/landscape/IMG_1929.JPG"
                             width={500}
                             height={500}
                             alt="Picture of the Logo"
@@ -30,7 +30,7 @@ function HomepageLandscape() {
 
                     <div className="col-span-1 hover:opacity-50 transition-all">
                         <Image
-                            src="/img/landscape/IMG_1977.jpg"
+                            src="/img/landscape/IMG_1977.JPG"
                             width={500}
                             height={500}
                             alt="Picture of the Logo"
@@ -39,7 +39,7 @@ function HomepageLandscape() {
 
                     <div className="col-span-1 hover:opacity-50 transition-all">
                         <Image
-                            src="/img/landscape/IMG_1886.jpg"
+                            src="/img/landscape/IMG_1886.JPG"
                             width={500}
                             height={500}
                             alt="Picture of the Logo"
@@ -48,7 +48,7 @@ function HomepageLandscape() {
 
                     <div className="col-span-1 hover:opacity-50 transition-all">
                         <Image
-                            src="/img/landscape/IMG_1970.jpg"
+                            src="/img/landscape/IMG_1970.JPG"
                             width={500}
                             height={500}
                             alt="Picture of the Logo"
