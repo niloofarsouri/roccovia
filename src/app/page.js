@@ -51,6 +51,7 @@ export default function Home() {
           <div className="flex-col items-center justify-center">
             <p className="text-3xl text-center font-serif text-[#eee2cb] p-3">Redefining Classical Architecture in The Contemprory World</p>
             <p className="text-l text-center text-[#eee2cb] p-3">"بازتعریف معماری کلاسیک در دنیای معاصر"</p>
+            <Link href={'/classic'}><p className="text-sm text-center underline">ادامه</p></Link>
           </div>
         </div>
 
