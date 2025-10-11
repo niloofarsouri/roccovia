@@ -12,7 +12,7 @@ function MyFooter() {
 
                     <Link href={'/'}>
                         <Image
-                            src="/img/logo-png.png"
+                            src="/img/logo/logo-png.png"
                             width={200}
                             height={200}
                             alt="Picture of the Logo"
