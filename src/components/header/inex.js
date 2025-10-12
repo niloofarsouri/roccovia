@@ -15,21 +15,21 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">صفحه اصلی</li>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'/classic'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Classic</li>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'/neoClassic'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">NeoClassic</li>
                         </Link>
 
-                        <Link href={'/'}>
+                        {/* <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Modern</li>
-                        </Link>
+                        </Link> */}
 
-                        <Link href={'/'}>
+                        {/* <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Interior Design</li>
-                        </Link>
+                        </Link> */}
 
                         <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Landscape</li>
@@ -43,7 +43,7 @@ function MyHeader() {
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">ژورنال</li>
                         </Link> */}
 
-                        <Link href={'/'}>
+                        <Link href={'/articles'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">مقالات</li>
                         </Link>
 

@@ -1,5 +1,10 @@
 
 
+export const metadata = {
+    title: "About Us",
+    description: "About ROCCOVIA and Us",
+}
+
 
 function AboutUs() {
 

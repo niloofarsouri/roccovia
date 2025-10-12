@@ -7,6 +7,12 @@ import HomepageArchitecturalStyles from "@/components/homepage-archStyle";
 import HomepageProject from "@/components/homepage-project";
 
 
+export const metadata = {
+  title: "صفحه اصلی",
+  description: ".در جهانی که هر روز فرم‌ها تغییر می‌کنند، بعضی فرم‌ها هرگز کهنه نمی‌شوند",
+};
+
+
 
 export default function Home() {
   return (
