@@ -7,6 +7,7 @@ import { useState } from "react"
 function HeaderBurger() {
 
     const [open, setOpen] = useState(false)
+    const [openMenu, setOpenMenu] = useState(false)
 
     const handleOpen = () => {
         setOpen(!open)
@@ -16,7 +17,7 @@ function HeaderBurger() {
 
     return (
         <>
-            <section className="w-full max-h-screen z-50 mt-0 md:hidden bg-[#eee2cb] text-[#7e6229]">
+            <section className="w-full max-h-screen z-50 mt-0 md:hidden bg-[#eee2cb] text-[#2d230f]">
                 <button onClick={handleOpen}>
                     <img src="/icons/HamburgerMenu.png" className="w-[30px] h-[30px] p-1 mr-2" />
                     {/* <img src="/icons/white-burger.png" className="w-[30px] h-[30px] p-1 mr-2 hidden dark:block" /> */}
@@ -32,21 +33,32 @@ function HeaderBurger() {
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">صفحه اصلی</li>
                                     </Link>
 
-                                    <Link href={'/classic'}>
-                                        <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white hover:rounded-md transition">Classic</li>
+
+                                    <Link href={'/'}>
+                                        <li className="p-2 rounded-xs hover:text-l hover:bg-[#0A2B1B] hover:text-white transition" onClick={() => setOpenMenu(!openMenu)}>انواع سبک</li>
+
+                                        {
+                                            openMenu ?
+                                                <div className="w-auto h-auto bg-[#eee2cb] text-[#2d230f] z-10 p-5">
+
+                                                    <Link href={'/classic'}>
+                                                        <li className="p-5 rounded-xs hover:text-l bg-[#eee2cb] text-[#2d230f] hover:border-1 transition">Classic</li>
+                                                    </Link>
+
+                                                    <Link href={'/neoClassic'}>
+                                                        <li className="p-5 rounded-xs hover:text-l bg-[#eee2cb] text-[#2d230f] hover:border-1 transition">NeoClassic</li>
+                                                    </Link>
+
+                                                    <Link href={'/modern'}>
+                                                        <li className="p-5 rounded-xs hover:text-l bg-[#eee2cb] text-[#2d230f] hover:border-1 transition">Modern</li>
+                                                    </Link>
+                                                </div>
+                                                :
+                                                ""
+                                        }
                                     </Link>
 
-                                    <Link href={'/neoClassic'}>
-                                        <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">NeoClassic</li>
-                                    </Link>
 
-                                    {/* <Link href={'/'}>
-                                        <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Modern</li>
-                                    </Link> */}
-
-                                    {/* <Link href={'/'}>
-                                        <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Interior Design</li>
-                                    </Link> */}
 
                                     <Link href={'/'}>
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Landscape</li>

@@ -8,7 +8,7 @@ import HomepageProject from "@/components/homepage-project";
 
 
 export const metadata = {
-  title: "صفحه اصلی",
+  title: "Roccovia",
   description: ".در جهانی که هر روز فرم‌ها تغییر می‌کنند، بعضی فرم‌ها هرگز کهنه نمی‌شوند",
 };
 
@@ -23,7 +23,8 @@ export default function Home() {
         <Link href={'/'} className="pt-10">
           <div className="hidden lg:block">
             <Image
-              src="/img/logo/logo-crown and col.png"
+              // src="/img/logo/logo-crown and col.png"
+              src="/img/logo/logo-png.png"
               width={300}
               height={300}
               alt="Picture of the Logo"
@@ -32,9 +33,10 @@ export default function Home() {
 
           <div className="block lg:hidden">
             <Image
-              src="/img/logo/logo-crown and col.png"
-              width={150}
-              height={150}
+              // src="/img/logo/logo-crown and col.png"
+              src="/img/logo/logo-png.png"
+              width={200}
+              height={200}
               alt="Picture of the Logo"
             />
           </div>
