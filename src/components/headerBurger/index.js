@@ -64,7 +64,7 @@ function HeaderBurger() {
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Landscape</li>
                                     </Link>
 
-                                    <Link href={'/'}>
+                                    <Link href={'/lighting'}>
                                         <li className="p-2 hover:text-l hover:bg-green-950 hover:text-white transition">Lighting</li>
                                     </Link>
 

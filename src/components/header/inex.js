@@ -46,18 +46,14 @@ function MyHeader() {
                         </Link>
 
                         {/* <Link href={'/'}>
-                            <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Modern</li>
-                        </Link> */}
-
-                        {/* <Link href={'/'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-green-950 hover:text-white transition">Interior Design</li>
                         </Link> */}
 
-                        <Link href={'/'}>
+                        <Link href={'/landscape'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-[#0A2B1B] hover:text-white transition">Landscape</li>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'/lighting'}>
                             <li className="p-2 rounded-xs hover:text-l hover:bg-[#0A2B1B] hover:text-white transition">Lighting</li>
                         </Link>
 
