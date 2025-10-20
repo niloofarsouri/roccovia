@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-[url(/img/damaskPattern400.png)] bg-center bg-repeat bg-[#0A2B1B] text-[rgb(184,155,81)] flex-col items-center justify-center h-auto sm:p-20 overflow-y-hidden">
+    <div className="bg-[url(/img/damaskPattern400.png)] bg-center bg-repeat bg-[#0A2B1B] text-[#b89b51] flex-col items-center justify-center h-auto sm:p-20 overflow-y-hidden">
 
       <div className="flex justify-center items-center border-t-1 border-l-1 border-r-1">
 

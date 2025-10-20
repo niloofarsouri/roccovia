@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 function HomepageLighting() {
@@ -16,41 +17,49 @@ function HomepageLighting() {
 
 
                 <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-2">
-                    <div className="col-span-1 hover:opacity-50 transition-all">
-                        <Image
-                            src="/img/lighting/IMG_1897.JPG"
-                            width={500}
-                            height={500}
-                            alt="Picture of the Logo"
-                        />
-                    </div>
+                    <Link href={'/lighting'}>
+                        <div className="col-span-1 hover:opacity-50 transition-all">
+                            <Image
+                                src="/img/lighting/IMG_1897.JPG"
+                                width={500}
+                                height={500}
+                                alt="Picture of the Logo"
+                            />
+                        </div>
+                    </Link>
 
-                    <div className="col-span-1 hover:opacity-50 transition-all">
-                        <Image
-                            src="/img/lighting/IMG_1925.JPG"
-                            width={500}
-                            height={500}
-                            alt="Picture of the Logo"
-                        />
-                    </div>
+                    <Link href={'/lighting'}>
+                        <div className="col-span-1 hover:opacity-50 transition-all">
+                            <Image
+                                src="/img/lighting/IMG_1925.JPG"
+                                width={500}
+                                height={500}
+                                alt="Picture of the Logo"
+                            />
+                        </div>
+                    </Link>
 
-                    <div className="col-span-1 hover:opacity-50 transition-all">
-                        <Image
-                            src="/img/lighting/IMG_1935.JPG"
-                            width={500}
-                            height={500}
-                            alt="Picture of the Logo"
-                        />
-                    </div>
+                    <Link href={'/lighting'}>
+                        <div className="col-span-1 hover:opacity-50 transition-all">
+                            <Image
+                                src="/img/lighting/IMG_1988.JPG"
+                                width={500}
+                                height={500}
+                                alt="Picture of the Logo"
+                            />
+                        </div>
+                    </Link>
 
-                    <div className="col-span-1 hover:opacity-50 transition-all">
-                        <Image
-                            src="/img/lighting/IMG_1940.JPG"
-                            width={500}
-                            height={500}
-                            alt="Picture of the Logo"
-                        />
-                    </div>
+                    <Link href={'/lighting'}>
+                        <div className="col-span-1 hover:opacity-50 transition-all">
+                            <Image
+                                src="/img/lighting/IMG_1940.JPG"
+                                width={500}
+                                height={500}
+                                alt="Picture of the Logo"
+                            />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>

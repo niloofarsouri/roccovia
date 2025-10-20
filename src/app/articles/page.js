@@ -1,7 +1,9 @@
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
-    title: "مقالات",
-    description: ".در دنیای مدرن و مینیمال، چرا هنوز ویلاها و ساختمان‌های لوکس ایران با ستون‌های کلاسیک و قوس‌های رومی ساخته می‌شوند؟ پاسخ در شکوه ابدی نهفته است.",
+    title: "چرا هنوز در ویلاها و پروژه‌های لوکس ایران، معماری کلاسیک محبوب است؟ | Roccovia Journal",
+    description: "تحلیلی بر محبوبیت معماری کلاسیک در پروژه‌های لوکس ایران؛ از شکوه باستان تا جست‌وجوی هویت در عصر مدرن. ژورنال معماری Roccovia.",
 };
 
 
@@ -13,7 +15,7 @@ function Articles() {
     return (
         <>
 
-            <section className="w-full h-auto bg-[#0A2B1B] text-[#eee2cb] flex justify-center items-center p-3 md:p-10 text-justify">
+            {/* <section className="w-full h-auto bg-[#0A2B1B] text-[#eee2cb] flex justify-center items-center p-3 md:p-10 text-justify">
 
                 <div className="w-[90%] md:w-[70%] flex-col items-center justify-center border-l-1 border-r-1 p-3">
 
@@ -93,7 +95,7 @@ function Articles() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
 
             {/* <div className="flex-col justify-center items-center p-5 bg-[#0A2B1B] text-[#eee2cb]">
@@ -196,6 +198,94 @@ function Articles() {
             </div> */}
 
 
+            <section className="bg-gray-50 text-gray-800 font-sans leading-relaxed dark:bg-[#0A2B1B] dark:text-[#eee2cb]">
+                {/* <!-- Hero Section --> */}
+                <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+                    {/* <img src="/images/classic-architecture-cover.jpg" alt="معماری کلاسیک" class="absolute w-full h-full object-cover blur-sm brightness-75" /> */}
+                    <Image
+                        src="/img/project/cam1Cover.jpg"
+                        width={600}
+                        height={600}
+                        alt="معماری کلاسیک"
+                        className="absolute w-full h-full object-cover blur-sm brightness-75"
+                    />
+                    <div className="relative z-10 text-center text-white">
+                        <h1 className="text-3xl md:text-5xl font-bold mb-4">چرا هنوز در ویلاها و پروژه‌های لوکس ایران، معماری کلاسیک محبوب است؟</h1>
+                        <p className="text-lg md:text-xl text-gray-200">از شکوه باستان تا جست‌وجوی هویت در عصر مدرن</p>
+                    </div>
+                </section>
+
+                {/* <!-- Article Body --> */}
+                <main className="max-w-4xl mx-auto px-6 py-10 space-y-8">
+                    <p>در روزگاری که معماری مینیمال، شیشه‌ای و دیجیتال همه‌جا را فرا گرفته، هنوز هم در گوشه‌و‌کنار ایران ویلاها و بناهایی می‌بینیم با ستون‌های مرمری، قوس‌های بزرگ و جزئیات سنگی پر از ظرافت. فرم‌هایی که گویی از دل تاریخ، از شکوه کاخ‌های باستانی تا معماری نئوکلاسیک اروپا، دوباره به زمان ما بازگشته‌اند. اما این پافشاری بر فرم‌های کلاسیک صرفاً نوستالژی نیست؛ بلکه پاسخی است به یک نیاز عمیق‌تر: نیاز انسان به حس شکوه، ثبات و جاودانگی.</p>
+
+                    <h2 className="text-2xl font-semibold text-yellow-700">زبان سنگ و احساس قدرت</h2>
+                    <p>ستون‌های کلاسیک و قوس‌های نیم‌دایره، فراتر از تزئینات‌اند؛ آن‌ها زبانی هستند برای بیان اقتدار و وقار. در فرهنگی که سرعت تغییر بی‌وقفه است، معماران و کارفرمایان لوکس به دنبال چیزی می‌گردند که “ابدی” به نظر برسد. ستون‌های بلند و متقارن، حس ثبات و اطمینان را القا می‌کنند — همان حسی که نیاکان ما قرن‌ها پیش در برابر بناهای سنگی، از تخت‌جمشید تا عمارت‌های قاجاری تجربه می‌کردند.</p>
+
+                    <blockquote className="border-r-4 border-yellow-600 pr-4 italic text-gray-700 bg-yellow-50 p-4 rounded-lg">معماری کلاسیک فقط زبان سنگ نیست؛ زبان زمان است. گفت‌وگویی میان دوام، وقار و احساس انسانی.</blockquote>
+
+                    <h2 className="text-2xl font-semibold text-yellow-700">معماری به‌عنوان نمایش و معنا</h2>
+                    <p>در پروژه‌های لوکس ایران، معماری فقط پناهگاه نیست؛ صحنه‌ای است برای نمایش هویت و درک شخصی از زیبایی. نما و ورودی ساختمان در حقیقت بیانیه‌ای فرهنگی است؛ ترکیبی از میراث تاریخی و تمایل به وقار. فرم‌های کلاسیک با سنگ طبیعی، قوس‌های ظریف و نظم هندسی‌شان، همان پیام آشنا را منتقل می‌کنند: «زیبایی در تعادل و تناسب است.»</p>
+
+                    <h2 className="text-2xl font-semibold text-yellow-700">حس نظم، تقارن و روان‌شناسی زیبایی</h2>
+                    <p>راز ماندگاری این سبک در درون انسان نهفته است. ذهن ما نظم، قرینگی و تناسب را زیبا می‌داند. ستون‌های متقارن و نسبت‌های طلایی، حس درونی توازن و آرامش را در ما بیدار می‌کنند. این تجربه فقط دیداری نیست؛ روانی و عاطفی است. شاید به همین دلیل است که حتی در میان سیل فرم‌های مدرن، هنوز هم معماری کلاسیک در نگاه ما «درست» و «مطمئن» به نظر می‌رسد.</p>
+
+                    <h2 className="text-2xl font-semibold text-yellow-700">ایران، میان مدرنیته و بازگشت به ریشه</h2>
+                    <p>در دهه‌های اخیر، شهرهای ایران پر از ساختمان‌های مدرن با نماهای سرد و فلزی شده‌اند. اما در پروژه‌های ویلایی و خانه‌های شخصی، مردم دوباره به دنبال گرما، اصالت و هویت رفته‌اند. نمای سنگ سفید، ستون‌های حجیم و قوس‌های تزئینی، نوعی بازگشت فرهنگی به ریشه‌هاست — ترکیبی از تجمل و آشنایی که حس خانه را دوباره زنده می‌کند. برای بسیاری از معماران امروز، معماری نئوکلاسیک فقط بازسازی گذشته نیست؛ بلکه زبان تازه‌ای برای پیوند میان گذشته و اکنون است — میان نظم تاریخی و زندگی مدرن.</p>
+
+                    <h2 className="text-2xl font-semibold text-yellow-700">فرمی که هرگز نمی‌میرد</h2>
+                    <p>محبوبیت معماری کلاسیک در پروژه‌های لوکس ایران نشان می‌دهد که بعضی فرم‌ها هرگز از مد نمی‌افتند. ستون‌های بلند و قوس‌های باشکوه، نه فقط میراث تاریخ‌اند، بلکه زبان جاودان شکوه، قدرت و اصالت ایرانی باقی مانده‌اند. فرمی که همزمان عقل و احساس را درگیر می‌کند — و یادمان می‌آورد که معماری، فراتر از ساختن، نوعی گفت‌وگوست؛ میان انسان، زمان و زیبایی.</p>
+                </main>
+
+                {/* <!-- Suggested Articles --> */}
+                <section className="bg-white border-t py-10 dark:bg-[#0A2B1B] dark:text-[#b89b51]">
+                    <div className="max-w-6xl mx-auto px-6">
+                        <h3 className="text-2xl font-bold text-yellow-700 mb-6 text-center">مطالب پیشنهادی Roccovia</h3>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-gray-50">
+                                {/* <img src="/images/lighting-thumb.jpg" alt="نورپردازی در معماری" className="w-full h-48 object-cover" /> */}
+                                <Image
+                                    src="/img/lighting/IMG_1927.jpg"
+                                    width={600}
+                                    height={600}
+                                    alt="نورپردازی در معماری"
+                                    className="w-full h-48 object-cover"
+                                />
+                                <div className="p-4">
+                                    <h4 className="text-lg font-semibold mb-2">نور، جوهره‌ی نامرئی معماری</h4>
+                                    <p className="text-sm text-gray-600 mb-2">تحلیلی بر نقش نور طبیعی و مصنوعی در خلق فضاهای معماری.</p>
+                                    <Link href={'/lighting'} className="text-yellow-700 font-medium hover:underline">ادامه مطلب →</Link>
+                                </div>
+                            </div>
+
+                            <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-gray-50">
+                                <img src="/img/landscape/IMG_1977.jpg" alt="طراحی منظر و فضا سازی" class="w-full h-48 object-cover" />
+                                <div className="p-4">
+                                    <h4 className="text-lg font-semibold mb-2">طراحی منظر؛ گفت‌وگوی معماری و طبیعت</h4>
+                                    <p className="text-sm text-gray-600 mb-2">تحلیل فنی و هنری طراحی فضاهای بیرونی مدرن و کلاسیک.</p>
+                                    <Link href={'/landscape'} className="text-yellow-700 font-medium hover:underline">ادامه مطلب →</Link>
+                                </div>
+                            </div>
+
+                            <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-gray-50">
+                                <img src="/images/materials-thumb.jpg" alt="مصالح و جزئیات لوکس" class="w-full h-48 object-cover" />
+                                <div className="p-4">
+                                    <h4 className="text-lg font-semibold mb-2">جزئیات و مصالح در پروژه‌های لوکس</h4>
+                                    <p className="text-sm text-gray-600 mb-2">نقش متریال در خلق هویت فضایی در معماری معاصر ایران.</p>
+                                    <a href="/articles/materials.html" className="text-yellow-700 font-medium hover:underline">ادامه مطلب →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* <!-- Footer --> */}
+                {/* <footer class="text-center text-gray-500 text-sm py-6 border-t bg-gray-100">
+                    <p>© 2025 Roccovia Architecture Journal — All Rights Reserved.</p>
+                </footer> */}
+
+
+            </section>
 
         </>
     )

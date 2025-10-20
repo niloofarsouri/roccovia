@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export const metadata = {
     title: "نورپردازی معماری | طراحی نور داخلی، نما و محوطه | Roccovia Lighting",
@@ -14,25 +15,45 @@ function Lighting() {
 
 
 
-            <section className="w-full h-auto bg-[#0A2B1B] text-[#eee2cb] flex justify-center items-center p-3 md:p-10 text-justify">
+            <section className="w-full h-auto dark:bg-[#0A2B1B] dark:text-[#eee2cb] flex justify-center items-center p-3 md:p-10 text-justify">
                 <div className="w-[90%] md:w-[70%] flex-col items-center justify-center border-l-1 border-r-1 p-3">
                     <div className="text-left border-b-1">
-                        <p className="text-3xl font-serif text-[#eee2cb] p-5">Lighting</p>
+                        <p className="text-3xl font-serif text-[#0A2B1B] dark:text-[#eee2cb] p-5">Lighting</p>
                     </div>
 
+                    <section class="relative w-full h-[70vh] flex items-center justify-center overflow-hidden">
+                        {/* <img src="/img/lighting/IMG_1940.jpg" alt="لوکس نوری در طراحی معماری" class="absolute inset-0 w-full h-full object-cover opacity-50" /> */}
+
+                        <Image
+                            // src="/img/logo/logo-crown and col.png"
+                            src="/img/lighting/pexels-cottonbro.jpg"
+                            width={600}
+                            height={600}
+                            alt="لوکس نوری در طراحی معماری"
+                            className="absolute left-0 bottom-0 w-full h-auto object-cover opacity-50"
+                        />
+                        <div class="relative z-10 text-center text-white px-6">
+                            <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">نور، روح معماری</h1>
+                            <p class="text-lg md:text-2xl max-w-3xl mx-auto drop-shadow-md">
+                                از روشنایی فضاهای داخلی تا شکوه نماهای شب، نورپردازی زبان پنهان معماری است — زبانی که بدون گفتن، حس می‌سازد.
+                            </p>
+                        </div>
+                    </section>
+
                     <div className="mt-3 md:mt-10">
-                        <h1 class="text-2xl font-bold mb-3"> نور؛ جوهره‌ی نامرئی معماری</h1>
-                        <br />
+                        <header class="mb-8 border-b border-gray-200 pb-6">
+                            <h1 class="text-3xl sm:text-4xl font-extrabold">نور؛ جوهره‌ی نامرئی معماری</h1>
+                            <p class="mt-2 text-gray-600">از تابش خورشید تا درخشش انسان‌ساخته — نگاهی جامع به نور طبیعی، نور مصنوعی، دمای رنگ و شدت روشنایی در پروژه‌های لوکس</p>
+                            <p class="mt-3 text-sm text-gray-500">نویسنده: <span class="font-medium">Roccovia Journal</span> — دسته: <span class="font-medium">Lighting</span></p>
+                        </header>
                         <h2 className="text-xl font-bold">
                             از الهام آفتاب تا درخشش انسان‌ساخته
                         </h2>
+                        <br />
                         <p>
                             نور در معماری، صرفاً روشنایی نیست؛ روحی است که فضا را زنده می‌کند، مرز میان حجم و احساس را ترسیم می‌کند و روایت سکوت را به تصویر می‌کشد.
                             در نخستین لایه، نور طبیعی ــ نوری که از حرکت خورشید و تغییر ساعت‌ها الهام می‌گیرد ــ هنوز خالص‌ترین منبع ادراک فضاست. جهت تابش، زاویه‌ی ورود و شدت آن، می‌تواند یک حجم ساده را به تجربه‌ای شاعرانه بدل کند. اما در عصر معماری معاصر، نور مصنوعی زبان دوم طراحی است؛ زبانی که کنترل، تداوم و هویت را به شب‌های معماری می‌افزاید.
                         </p>
-                        <br />
-
-                        <p class="mt-2">از تابش خورشید تا درخشش ساخته دست انسان — نگاهی جامع به نور طبیعی، نور مصنوعی، دمای رنگ و شدت روشنایی در پروژه‌ها</p>
                         <br />
                         <h2 class="text-2xl font-semibold">معماری نور؛ از عملکرد تا حس</h2>
                         <br />
@@ -256,12 +277,8 @@ function Lighting() {
             </section>
 
 
-
-            {/* <footer class="text-sm text-gray-500 border-t border-gray-200 pt-6">
-                <p>© <span id="year"></span> Roccovia — همه حقوق محفوظ است.</p>
-                <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-            </footer> */}
         </>
+
     )
 }
 
