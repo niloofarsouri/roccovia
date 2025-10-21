@@ -21,7 +21,7 @@ function Lighting() {
                         <p className="text-3xl font-serif text-[#0A2B1B] dark:text-[#eee2cb] p-5">Lighting</p>
                     </div>
 
-                    <section class="relative w-full h-[70vh] flex items-center justify-center overflow-hidden">
+                    <section class="relative w-full h-auto md:h-[70vh] flex items-center justify-center overflow-hidden">
                         {/* <img src="/img/lighting/IMG_1940.jpg" alt="لوکس نوری در طراحی معماری" class="absolute inset-0 w-full h-full object-cover opacity-50" /> */}
 
                         <Image
@@ -33,14 +33,14 @@ function Lighting() {
                             className="absolute left-0 bottom-0 w-full h-auto object-cover opacity-50"
                         />
                         <div class="relative z-10 text-center text-white px-6">
-                            <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">نور، روح معماری</h1>
-                            <p class="text-lg md:text-2xl max-w-3xl mx-auto drop-shadow-md">
+                            <h1 class="text-3xl md:text-6xl font-bold md:mb-4 drop-shadow-lg">نور، روح معماری</h1>
+                            <p class="text-sm p-10 md:text-2xl max-w-3xl mx-auto drop-shadow-md">
                                 از روشنایی فضاهای داخلی تا شکوه نماهای شب، نورپردازی زبان پنهان معماری است — زبانی که بدون گفتن، حس می‌سازد.
                             </p>
                         </div>
                     </section>
 
-                    <div className="mt-3 md:mt-10">
+                    <div className="mt-5 md:mt-10">
                         <header class="mb-8 border-b border-gray-200 pb-6">
                             <h1 class="text-3xl sm:text-4xl font-extrabold">نور؛ جوهره‌ی نامرئی معماری</h1>
                             <p class="mt-2 text-gray-600">از تابش خورشید تا درخشش انسان‌ساخته — نگاهی جامع به نور طبیعی، نور مصنوعی، دمای رنگ و شدت روشنایی در پروژه‌های لوکس</p>

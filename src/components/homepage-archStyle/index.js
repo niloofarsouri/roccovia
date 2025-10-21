@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 
@@ -7,7 +8,7 @@ function HomepageArchitecturalStyles() {
 
     return (
         <>
-            <div>
+            <Link href={'/'}>
                 <div className="grid gap-2 grid-cols-4 p-5">
 
                     <div className="flex justify-center col-span-4">
@@ -57,7 +58,7 @@ function HomepageArchitecturalStyles() {
                         />
                     </div>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }
